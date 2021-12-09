@@ -1,0 +1,21 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha --reporter list",
+    "package": "npm pack"
+  },
+  "author": "Leelachandu",
+  "license": "ISC",
+  "dependencies": {
+    "cp": "^0.2.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "three": "^0.132.2"
+  },
+  "description": ""
+}
